@@ -1,0 +1,14 @@
+:root{
+    --grayishBlue: hsl(237, 18%, 59%);
+    --softRed: hsl(345, 95%, 68%);
+    --white: hsl(0, 0%, 100%);
+    --darkDesaturatedBlue: hsl(236, 21%, 26%);
+    --veryDarkBlue: hsl(235, 16%, 14%);
+    --veryDarkBlue1: hsl(234, 17%, 12%);
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Red Hat Text', sans-serif;
+}
