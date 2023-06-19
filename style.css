@@ -15,14 +15,14 @@ body{
 }
 
 main{
-    height: 100vh;
+    height: 90vh;
     background-image: url('./images/bg-stars.svg');
 }
 
 h1{
     color: var(--white);
     text-transform: uppercase;
-    margin: 10rem auto 1rem;
+    margin: 10rem auto 4rem;
     text-align: center;
     font-size: 2rem;
     letter-spacing: 0.7rem;
@@ -67,6 +67,8 @@ h1{
 .numberCard::before {
     content: '';
     width: 100%;
+    height: 50%;
+    margin-top: -1.8rem;
     background: linear-gradient(var(--darkDesaturatedBlue) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.20) 100%);
     border-bottom: solid 1px rgba( 0, 0, 0, 0.4);
     z-index: 1;
@@ -74,15 +76,16 @@ h1{
 }
 
 .numberCard::after {
+    position: absolute;
     content: '';
     width: 0.45rem;
     height: 1rem;
     -webkit-transform: translateY(50%);
-    transform: translateY(0%);
-    background-color: var(--veryDarkBlue1);
-    top: 50%;
+    transform: translate(1015%,0%);
+    background-color: var(--veryDarkBlue1);    
     border-top-left-radius: 10rem;
     border-bottom-left-radius: 10rem;
+    z-index: 1;
 }
 
 .number{
@@ -90,8 +93,26 @@ h1{
     transform: translate(35%, 0%);   
 }
 
+.networks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
 
+.icon{
+    color: var(--grayishBlue);
+}
 
+.faIcon{
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+    background-color: var(--grayishBlue);
+    color: var(--darkDesaturatedBlue);
+    border-radius: 0.5rem;
+}
 
 
 
@@ -100,6 +121,7 @@ footer {
     background-image: url('./images/pattern-hills.svg');
     font-size: 1rem;
     text-align: center;
+    padding: 4rem 0;
 }
 
 footer a {
