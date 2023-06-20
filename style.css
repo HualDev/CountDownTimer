@@ -105,6 +105,14 @@ h1{
     color: var(--grayishBlue);
 }
 
+.faIcon:hover{
+    background-color: var(--softRed);
+}
+
+.iconn:hover{
+    color: var(--softRed);
+}
+
 .faIcon{
     width: 2rem;
     height: 2rem;
