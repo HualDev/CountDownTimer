@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [HualDev](https://github.com/HualDev/CountDownTimer)
-- Live Site URL: [Ecommerce](https://hualdev.github.io/CountDownTimer/)
+- Live Site URL: [CounDown](https://hualdev.github.io/CountDownTimer/)
 
 ## My process
 
