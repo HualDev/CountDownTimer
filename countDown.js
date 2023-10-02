@@ -46,7 +46,7 @@ function update() {
     document.getElementById('hour').innerHTML = addZero(hours);
     document.getElementById('minute').innerHTML = addZero(minutes);
     document.getElementsByClassName('second')[0].innerHTML = addZero(seconds);
-    document.getElementsByClassName('second')[1].innerHTML = addZero(seconds);
+    //document.getElementsByClassName('second')[1].innerHTML = addZero(seconds);
 }
 
 const addZero = (number) => String(number).padStart(2, '0')
